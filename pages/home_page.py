@@ -16,7 +16,7 @@ class HomePage:
         self.lnk_register = page.locator('a:has-text("Register")')
         self.lnk_login = page.locator('a:has-text("Login")')
         self.txt_search_box = page.locator('input[placeholder="Search"]')
-        self.btn_search = page.locator('#search button[type="button"]')
+        self.btn_search = page.locator('.input-group button[type="submit"]')
 
     # ===== Action Methods =====
     # Each method represents a user interaction on the page

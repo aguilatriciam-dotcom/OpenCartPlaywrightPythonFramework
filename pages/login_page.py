@@ -21,7 +21,7 @@ class LoginPage:
         # Using CSS selectors to locate elements on the Login page.
         self.txt_email_address = page.locator('#input-email')
         self.txt_password = page.locator('#input-password')
-        self.btn_login = page.locator('input[value="Login"]')
+        self.btn_login = page.locator('button:has-text("Login")')
         self.txt_error_message = page.locator('.alert.alert-danger.alert-dismissible')
 
     # ===== Action Methods =====

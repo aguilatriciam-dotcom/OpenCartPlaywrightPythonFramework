@@ -20,7 +20,7 @@ class LogoutPage:
 
         # ===== Locators =====
         # Button used to return to the home page after successful logout
-        self.btn_continue = page.locator('.btn.btn-primary')
+        self.btn_continue = page.locator('.text-end a:has-text("Continue")')
 
     # ===== Action Methods =====
 

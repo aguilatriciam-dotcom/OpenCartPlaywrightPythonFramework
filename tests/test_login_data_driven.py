@@ -7,7 +7,7 @@ from pages.home_page import HomePage
 from pages.login_page import LoginPage
 from pages.my_account_page import MyAccountPage
 from playwright.sync_api import expect
-from utilities.data_reader_util import read_json_data, read_csv_data, read_excel_data
+from utils.data_reader_util import read_json_data, read_csv_data, read_excel_data
 
 #Load/read the data from the test data files
 

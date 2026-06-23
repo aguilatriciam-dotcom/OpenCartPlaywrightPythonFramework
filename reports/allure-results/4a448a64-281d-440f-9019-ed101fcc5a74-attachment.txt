@@ -1,0 +1,28 @@
+[OK] Starting browser: chromium
+[OK] Headless mode: False (headed=True)
+[INFO] Navigating to: http://localhost/demo/
+[TRACE] Tracing enabled - capturing screenshots and actions
+Unable to click Logout link: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator(".dropdown-menu a:has-text(\"Logout\")")
+    - locator resolved to <a class="dropdown-item" href="http://localhost/demo/index.php?route=account/logout&language=en-gb">Logout</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not visible
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not visible
+     - retrying click action
+       - waiting 500ms
+
+[RESULT] Test 'test_user_logout' result: [FAIL]
+[SAVE] Trace saved: reports/traces/test_user_logout_trace.zip
+[SAVE] Screenshot saved: reports/screenshots/test_user_logout.png
+[ATTACH] Screenshot attached to Allure report
+[ATTACH] Video attached to Allure report
+[CLEANUP] Closing browser context and stopping Playwright...

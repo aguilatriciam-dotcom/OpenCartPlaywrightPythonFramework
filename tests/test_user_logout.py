@@ -28,7 +28,6 @@ from pages.login_page import LoginPage
 from pages.my_account_page import MyAccountPage
 from config import Config
 
-
 @pytest.mark.regression
 def test_user_logout(page):
     """

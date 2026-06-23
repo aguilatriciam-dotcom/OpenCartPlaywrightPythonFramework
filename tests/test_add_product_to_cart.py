@@ -27,7 +27,7 @@ from pages.home_page import HomePage
 from pages.search_results_page import SearchResultsPage
 from config import Config
 
-
+@pytest.mark.sanity
 @pytest.mark.regression
 def test_add_product_to_cart(page):
     """

@@ -23,7 +23,7 @@ class RegistrationPage:
 
         # Checkbox and buttons
         self.chk_policy = page.locator('input[name="agree"]')
-        self.btn_continue = page.locator('input[value="Continue"]')
+        self.btn_continue = page.locator('button:has-text("Continue")')
 
         # Confirmation message (displayed after successful registration)
         self.msg_confirmation = page.locator('h1:has-text("Your Account Has Been Created!")')

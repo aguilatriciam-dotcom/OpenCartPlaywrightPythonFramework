@@ -20,8 +20,8 @@ class MyAccountPage:
 
         # ===== Locators =====
         # Identifying elements on the My Account page.
-        self.msg_heading = page.locator('h2:has-text("My Account")')
-        self.lnk_logout = page.locator("text='Logout'").nth(1)
+        self.msg_heading = page.locator('h1:has-text("My Account")')
+        self.lnk_logout = page.locator('#column-right a:has-text("Logout")')
 
     # ===== Page Validation Methods =====
 
